@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 25px;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin: 0;
+}
+
+
+
+/* div.transbox {
+  margin: 30px;
+  background-color: #E64C00;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+} */
+
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #E64C00;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #c24000;
+    color: white;
+}
+
+.content {
+    margin: auto;
+    padding: 20px;
+}
+
+
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: url(backimg.jpg);
+    color: black;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font-size: 40px;
+}
+
+h1 a:link,
+h1 a:visited{
+        color: black;
+        text-decoration: none;
+}
+
+
+/*Tables*/
+
+/*th, td {
+    text-align: left;
+     padding: 3px;
+ 
+}
+
+
+table.biotable{border: 0px;}
+
+li{
+    margin-top: 10px;
+}
+
+td.heading{
+        background: #CC6666;
+    text-align: center;
+        font-weight: bold;
+}
+
+tr.entry{
+        background: #DF9F9F;
+}
+
+
+td.photo{
+        text-align: center;
+        vertical-align: center;
+}
+
+*/
+/* two columns for widgets */
+
+/* Create two equal columns that floats next to each other */
+/*.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    height: 420px;
+}
+*/
+
+/* Clear floats after the columns */
+/*
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+*/
