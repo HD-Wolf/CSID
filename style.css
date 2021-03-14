@@ -3,16 +3,6 @@
 }
 
 body {
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 20px;
-    letter-spacing: 0px;
-    word-spacing: -5px;
-    color: #000000;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
     margin: 0;
 }
 
@@ -38,7 +28,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden;
-    background-color: #E64C00;
+    background-color: #000000;
 }
 
 /* Style the navigation bar links */
@@ -58,11 +48,22 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-    background-color: #c24000;
-    color: white;
+    background-color: #ffffff;
+    color: black;
 }
 
 .content {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    
     margin: auto;
     padding: 50px;
     
@@ -75,10 +76,21 @@ body {
 
 /* Style the header */
 .header {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: -5px;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    
     padding: 55px;
     padding-bottom: 180px;
     text-align: center;
-    background: url(backimg.jpg);
+    background: url(stones1.jpg);
     color: black;
 }
 
