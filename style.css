@@ -14,6 +14,19 @@ body {
     font-variant: normal;
     text-transform: none;
     margin: 0;
+    
+    /* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
+    background: white;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.image {
+    min-height: 100vh;
+    background-image: url(pxl1.jpeg) top left repeat;
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+    padding: 30px;
 }
 
 
