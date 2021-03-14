@@ -7,8 +7,9 @@ body {
 }
 
 .image {
-    min-height: 100vh;
-    background-image: url(pxl1.jpeg) top left repeat;
+    /*min-height: 100vh;*/
+    background-image: url(pxl1.jpeg); /*top left repeat*/
+    background-repeat: round;
     /*background-size: cover;
     background-repeat: no-repeat;*/
     padding: 30px;
@@ -100,7 +101,7 @@ body {
     padding: 100px;
     /*padding-bottom: 180px;*/
     text-align: center;
-    background: url(stones1.png);
+    background: url(lines6.JPG); /*stones1.png*/
     /* added from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css */
     background-size: cover;
     background-repeat: no-repeat;
