@@ -97,17 +97,26 @@ body {
     font-variant: normal;
     text-transform: none;
     
-    padding: 55px;
-    padding-bottom: 180px;
+    padding: 100px;
+    /*padding-bottom: 180px;*/
     text-align: center;
     background: url(stones1.png);
-    color: black;
 }
 
 /* Increase the font size of the h1 element */
 .header h1 {
     color: white;
     font-size: 30px;
+}
+
+/*change color of h2 element*/
+.header h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.whitetext {
+    color: #ffffff;
 }
 
 h1 a:link,
