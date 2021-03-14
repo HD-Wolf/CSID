@@ -8,9 +8,9 @@ body {
 
 .image {
     min-height: 100vh;
-    background-image: url(pxl1.jpeg) top left repeat;
+    background-image: url(pxl1.jpeg)/* top left repeat*/;
     background-size: cover;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     padding: 30px;
 }
 
@@ -90,7 +90,7 @@ body {
     padding: 55px;
     padding-bottom: 180px;
     text-align: center;
-    background: url(stones1.jpg);
+    background: url(stones1.jpeg);
     color: black;
 }
 
