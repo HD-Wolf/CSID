@@ -14,11 +14,6 @@ body {
     font-variant: normal;
     text-transform: none;
     margin: 0;
-    
-    /* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
-    background: white;
-    padding: 15px;
-    border-radius: 3px;
 }
 
 .image {
@@ -69,7 +64,12 @@ body {
 
 .content {
     margin: auto;
-    padding: 20px;
+    padding: 50px;
+    
+    /* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
+    background: white;
+    /*padding: 15px;*/
+    border-radius: 3px;
 }
 
 
