@@ -12,7 +12,9 @@ body {
     /*background-repeat: round;*/
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 30px;
+    background-attachment: fixed;
+    /*padding: 30px;*/
+    padding: 25px 60px 100px 60px;
 }
 
 
@@ -77,8 +79,7 @@ body {
     text-transform: none;
     
     margin: auto;
-    /*padding: 50px;*/
-    padding: 25px 80px 75px 80px;
+    padding: 50px;
     
     /* adding from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css*/
     background: white;
