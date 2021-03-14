@@ -19,8 +19,8 @@ body {
 .image {
     min-height: 100vh;
     background-image: url(pxl1.jpeg) top left repeat;
-    /*background-size: cover;
-    background-repeat: no-repeat;*/
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
     padding: 30px;
 }
 
