@@ -8,9 +8,9 @@ body {
 
 .image {
     min-height: 100vh;
-    background-image: url(pxl1.jpeg)/* top left repeat*/;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(pxl1.jpeg) top left repeat;
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
     padding: 30px;
 }
 
@@ -101,6 +101,9 @@ body {
     /*padding-bottom: 180px;*/
     text-align: center;
     background: url(stones1.png);
+    /* added from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Increase the font size of the h1 element */
@@ -119,11 +122,18 @@ body {
     color: #ffffff;
 }
 
+/* FILL IN LATER
+a: visited{
+    color:
+}*/
+
+/*
 h1 a:link,
 h1 a:visited{
         color: black;
         text-decoration: none;
 }
+*/
 
 
 /*Tables*/
