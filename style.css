@@ -92,8 +92,8 @@ body {
 .header {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
-    letter-spacing: 0px;
-    word-spacing: -5px;
+    letter-spacing: -2px;
+    word-spacing: 6px;
     font-weight: bold;
     text-decoration: none;
     font-style: normal;
@@ -113,7 +113,7 @@ body {
 .header h1 {
     /*color: white;*/
     color: black;
-    font-size: 30px;
+    font-size: 80px;
 }
 
 /*change color of h2 element*/
