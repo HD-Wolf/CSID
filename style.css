@@ -102,7 +102,7 @@ body {
     
     padding: 100px;
     /*padding-bottom: 180px;*/
-    text-align: center;
+    text-align: left;
     background: url(lines6.JPG); /*stones1.png*/
     /* added from https://stackoverflow.com/questions/61535945/how-to-create-a-white-box-for-content-over-an-image-background-in-html-css */
     background-size: cover;
@@ -131,19 +131,21 @@ body {
 
 #sides {
     margin:0;
+    padding: 50px 0px 50px 0px;
 }
 #left {
     float:left;
     margin-left: 5%;
     width:25%;
-    min-height:100px;
+    /*min-height:100px;*/
+    height: 25%
     overflow:hidden;
 }
 #right {
     float:left;
     margin-left: 5%;
     width:25%;
-    min-height:100px;
+    height:400px;
     overflow:hidden;
 }
 #centre {
