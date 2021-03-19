@@ -140,6 +140,7 @@ body {
     /*min-height:100px;*/
     height: 25%
     overflow:hidden;
+    border: 0;
 }
 #right {
     float:left;
@@ -147,6 +148,7 @@ body {
     width:25%;
     height:400px;
     overflow:hidden;
+    border: 0;
 }
 #centre {
     float:left;
@@ -154,6 +156,7 @@ body {
     width:25%;
     min-height:100px;
     overflow:hidden;
+    border: 0;
 }
 @media screen and (max-width: 300px) {
     #left {
@@ -161,17 +164,20 @@ body {
         float: left;
         margin: 1px;
         min-height:100px;
+        border: 0;
     }
     #right {
         width:50%;
         margin: 1px;
         min-height:100px;
+        border: 0;
     }
     #centre {
         width:100%;
         float: right;
         margin: 1px;
         min-height:100px;
+        border: 0;
     }
 }
 
