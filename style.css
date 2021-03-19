@@ -127,9 +127,30 @@ body {
 }
 
 
+/* help from: */
+div.gallery {
+  margin: 10px;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+	opacity: 0.5;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 2px;
+  text-align: left;
+}
+
 /*from : floating boxes*/
 
-#sides {
+/* #sides {
     margin:0;
     padding: 50px 0px 50px 0px;
 }
@@ -178,7 +199,7 @@ body {
         min-height:100px;
         border: 0;
     }
-}
+} */
 
 /* FILL IN LATER
 a: visited{
