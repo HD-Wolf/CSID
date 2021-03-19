@@ -92,7 +92,7 @@ body {
 .header {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
-    letter-spacing: -2px;
+    letter-spacing: 1px;
     word-spacing: 6px;
     font-weight: bold;
     text-decoration: none;
@@ -100,7 +100,7 @@ body {
     font-variant: normal;
     text-transform: none;
     
-    padding: 50px;
+    padding: 20px;
     /*padding-bottom: 180px;*/
     text-align: left;
     background: url(lines6.JPG); /*stones1.png*/
@@ -113,7 +113,7 @@ body {
 .header h1 {
     /*color: white;*/
     color: black;
-    font-size: 80px;
+    font-size: 100px;
 }
 
 /*change color of h2 element*/
