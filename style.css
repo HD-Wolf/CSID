@@ -131,7 +131,7 @@ body {
 div.gallery {
   margin: 10px;
   float: left;
-  width: 180px;
+  width: 230px;
 }
 
 div.gallery:hover {
@@ -144,8 +144,13 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 2px;
-  text-align: left;
+	padding: 2px;
+	text-align: left;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	word-spacing: 6px;
 }
 
 /*from : floating boxes*/
