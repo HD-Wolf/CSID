@@ -127,6 +127,10 @@ body {
     color: #ffffff;
 }
 
+/*margins to center the grid */
+.gallerymargins {
+	margin: 200px
+}
 
 /* help from: */
 div.gallery {
