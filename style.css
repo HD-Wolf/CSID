@@ -131,12 +131,12 @@ body {
 
 /*margins to center the grid */
 .gallerymargins {
-	margin: 200px
+	margin: 10px 80px 10px 80px;
 }
 
 /* Image gallery for each topic, help from: https://www.w3schools.com/css/css_image_gallery.asp*/
 div.gallery {
-  margin: 20px;
+  margin: 30px;
   float: left;
   width: 230px;
 }
