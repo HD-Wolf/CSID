@@ -6,12 +6,13 @@ body {
     margin: 0;
 }
 
+/*background image for website page*/
 .image {
     min-height: 100vh;
     background-image: url(pxl1.jpeg); /*top left repeat*/
     /*background-repeat: round;*/
     background-size: cover;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-attachment: fixed;
     /*padding: 30px;*/
     padding: 25px 60px 100px 60px;
@@ -28,7 +29,7 @@ body {
 } */
 
 
-/* Style the top navigation bar */
+/* top navigation bar */
 .navbar {
     font-family: "Lucida Console", Monaco, monospace;
     font-size: 20px;
@@ -45,7 +46,7 @@ body {
     background-color: #000000;
 }
 
-/* Style the navigation bar links */
+/* navigation bar links */
 .navbar a {
     float: left;
     display: block;
@@ -123,6 +124,7 @@ body {
     font-size: 30px;
 }
 
+/*for text I want to be exceptionally white: */
 .whitetext {
     color: #ffffff;
 }
@@ -132,9 +134,9 @@ body {
 	margin: 200px
 }
 
-/* help from: */
+/* Image gallery for each topic, help from: https://www.w3schools.com/css/css_image_gallery.asp*/
 div.gallery {
-  margin: 10px;
+  margin: 20px;
   float: left;
   width: 230px;
 }
@@ -148,6 +150,7 @@ div.gallery img {
   height: auto;
 }
 
+/*text under each gallery image*/
 div.desc {
 	padding: 2px;
 	text-align: left;
