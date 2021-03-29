@@ -150,8 +150,11 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+ 	width: 280px;
+	height: 280px
+/*
+	width: 100%;
+  height: auto;*/
 }
 
 /*text under each gallery image*/
