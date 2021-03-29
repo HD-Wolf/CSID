@@ -138,8 +138,8 @@ body {
 
 /* Image gallery for each topic, help from: https://www.w3schools.com/css/css_image_gallery.asp*/
 div.gallery {
-  margin: 35px;
-  float: left;
+  margin: 20px;
+  float: center;
   width: 230px;
 }
 
@@ -154,13 +154,13 @@ div.gallery img {
 
 /*text under each gallery image*/
 div.desc {
-	padding: 2px;
+	padding: 0px;
 	text-align: left;
 
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	letter-spacing: 1px;
-	word-spacing: 6px;
+	word-spacing: 3px;
 }
 
 /*from : floating boxes*/
