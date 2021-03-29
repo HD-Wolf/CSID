@@ -139,9 +139,10 @@ body {
 
 /* Image gallery for each topic, help from: https://www.w3schools.com/css/css_image_gallery.asp*/
 div.gallery {
-  margin: 20px;
-  float: left;
-  width: 230px;
+	margin: 20px;
+	float: left;
+	width: 230px;
+	height: 250px;
 }
 
 div.gallery:hover {
@@ -150,8 +151,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
- 	width: 280px;
-	height: 280px
+ 	width: 230px;
+	height: 230px;
 /*
 	width: 100%;
   height: auto;*/
